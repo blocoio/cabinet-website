@@ -1132,7 +1132,7 @@ section {
   height: 40px;
   border-radius: 50%;
   background: #98CFCF;
-  border: 3px solid #d1b7d9;
+  border: 3px solid ##C2E7E7;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -1154,7 +1154,7 @@ section {
 .scropll-top-btn:hover, .scropll-top-btn:focus {
   color: #fff;
   text-decoration: none;
-  background: #724381;
+  background: #2D9C9C;
 }
 
 .device-wrapper {
@@ -1418,7 +1418,7 @@ STYLE SWITCHER FOR DEMO
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #724381;
+  background-color: #2D9C9C;
   border-color: #6b3f78;
 }
 
@@ -2179,7 +2179,7 @@ mark,
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #724381 !important;
+  color: #2D9C9C !important;
 }
 
 /*
@@ -2271,7 +2271,7 @@ a.text-primary:hover, a.text-primary:focus {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #724381 !important;
+  background-color: #2D9C9C !important;
 }
 
 .bg-secondary {
@@ -2381,7 +2381,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #724381 !important;
+  color: #2D9C9C !important;
 }
 
 .text-secondary {
@@ -2448,7 +2448,7 @@ a.text-dark:hover, a.text-dark:focus {
 .badge-primary[href]:hover, .badge-primary[href]:focus {
   color: #fff;
   text-decoration: none;
-  background-color: #724381;
+  background-color: #2D9C9C;
 }
 
 .badge-secondary {
