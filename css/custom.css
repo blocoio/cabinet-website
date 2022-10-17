@@ -1,10 +1,17 @@
 /* your styles go here */
 
-/* Common */
+/* COMMON */
 
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: NewParisMedium;
+    font-size: 20px;
+    line-height: 28px;
+    background-color: #ECF2F2;
 }
 
 section {
@@ -15,22 +22,75 @@ section {
   margin-bottom: 0;
 }
 
-.btn {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 0.9rem;
-  font-weight: normal;
-}
-
-/* Navbar */
+/* NAVBAR */
 
 .navbar, 
 .navbar.active {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
+  background: #ECF2F2;
 }
 
-/* About */
+.nav-link {
+    font-weight: 900;
+}
+
+.nav-link.active {
+    color: #2D9C9C;
+}
+
+.nav-link:hover {
+    color: #2D9C9C;
+}
+
+/* BUTTONS */
+
+.btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background-color: #2D9C9C;
+    border-color: #2D9C9C;
+}
+
+.btn-primary:hover {
+    background-color: #98CFCF;
+    border-color: #98CFCF;
+}
+
+.btn-secondary {
+    color: #2D9C9C;
+    background-color: #ECF2F2;
+    border-color: #2D9C9C;
+}
+
+/* TYPE */
+
+h1, .h1 {
+    font-family: NewParisBlack;
+    font-size: 42px;
+    font-feature-settings: 'ss01' off;
+}
+
+h4, .h4 {
+    font-family: NewParisBlack;
+    font-size: 28px;
+}
+
+/* HOME */
+
+.device-background {
+  background-image: url("../img/device-background.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 90%;
+  z-index: -1;
+}
 
 .device-wrapper {
   max-width: 240px;
@@ -43,24 +103,56 @@ section {
   height: 80%;
 }
 
-/* How it works */
+/* YOUR CABINET */
 
-.stacks-metaverse {
-  max-width: 500px;
+.your-cabinet-image {
+  max-width: 250px;
 }
 
-/* FAQs */
+.list-check li {
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    font-weight: 900;
+}
 
-@media (min-width: 768px) {
-  .how-it-works__text-container {
+.list-check li.curvy-arrow {
+    background-image: url('../img/curvy-arrow.png');
+}
+
+.list-check li.normal-arrow {
+    background-image: url('../img/normal-arrow.png');
+}
+
+.list-check li.strong-arrow {
+    background-image: url('../img/strong-arrow.png');
+}
+
+/* SIMPLE AND USEFUL */
+
+.simple-and-useful img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    margin-bottom:30px;
+}
+
+/* FAQ */
+
+.faq-container {
     position: relative;
-    background-image: url('../img/dashed_background.svg');
-    background-position: center 55%;
-    background-size: cover;
-  }
+    background-image: url('../img/faq-background.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-/* Footer */
+.faq-number {
+    color: #2D9C9C;
+}
+
+/* FOOTER */
 
 footer {
   font-size: 16px;
