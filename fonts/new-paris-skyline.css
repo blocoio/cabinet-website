@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'NewParisBlack';
+    src: local('NewParis Skyline Black'), local('NewParis-Skyline-Black'),
+        url('NewParisSkyline-Black.woff2') format('woff2'),
+        url('NewParisSkyline-Black.woff') format('woff'),
+        url('NewParisSkyline-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'NewParisMedium';
+    src: local('NewParis Skyline Medium'), local('NewParis-Skyline-Medium'),
+        url('NewParisSkyline-Medium.woff2') format('woff2'),
+        url('NewParisSkyline-Medium.woff') format('woff'),
+        url('NewParisSkyline-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
