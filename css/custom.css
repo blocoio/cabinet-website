@@ -143,7 +143,7 @@ h4, .h4 {
 .faq-container {
     position: relative;
     background-image: url('../img/faq-background.png');
-    background-size: 70%;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
