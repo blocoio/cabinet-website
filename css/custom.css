@@ -14,8 +14,10 @@ body {
     background-color: #ECF2F2;
 }
 
-section {
-  padding: 70px 0 70px;
+@media (min-width: 992px) {
+    section {
+        padding: 90px 0 90px;
+    }
 }
 
 .bg-center {
@@ -109,6 +111,14 @@ h4, .h4 {
   max-width: 250px;
 }
 
+@media (max-width: 576px) {
+    .your-cabinet-image {
+        max-width: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+
 .list-check li {
     background-size: 30px;
     background-repeat: no-repeat;
@@ -134,18 +144,20 @@ h4, .h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 180px;
+    height: 210px;
     margin-bottom:30px;
 }
 
 /* FAQ */
 
-.faq-container {
-    position: relative;
-    background-image: url('../img/faq-background.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+@media (min-width: 576px) {
+    .faq-container {
+        position: relative;
+        background-image: url('../img/faq-background.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
 .faq-number {
