@@ -44,6 +44,7 @@ a:hover {
 
 .nav-link {
     font-weight: 900;
+    text-decoration: none;
 }
 
 .nav-link.active {
@@ -62,6 +63,7 @@ a:hover {
     font-size: 0.9rem;
     font-weight: 900;
     border: 2px solid transparent;
+    text-decoration: none;
 }
 
 .btn-primary {
