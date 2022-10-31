@@ -24,6 +24,15 @@ body {
   margin-bottom: 0;
 }
 
+a {
+    color: #1E7E7E;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #2D9C9C;
+}
+
 /* NAVBAR */
 
 .navbar, 
@@ -56,19 +65,25 @@ body {
 }
 
 .btn-primary {
-    background-color: #2D9C9C;
-    border-color: #2D9C9C;
+    background-color: #1E7E7E;
+    border-color: #1E7E7E;
 }
 
 .btn-primary:hover {
-    background-color: #98CFCF;
-    border-color: #98CFCF;
+    background-color: #2D9C9C;
+    border-color: #2D9C9C;
 }
 
 .btn-secondary {
     color: #2D9C9C;
     background-color: #ECF2F2;
     border-color: #2D9C9C;
+}
+
+.btn-secondary:hover {
+    background-color: #1E7E7E;
+    border-color: #1E7E7E;
+    color: #FCFFFF;
 }
 
 /* TYPE */
@@ -169,4 +184,13 @@ h4, .h4 {
 footer {
   font-size: 16px;
   line-height: 23px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color:  #434B53;
+}
+
+.footer-link:hover {
+    color:  #1E7E7E;
 }
