@@ -131,7 +131,7 @@ h4, .h4 {
 @media (max-width: 576px) {
     .your-cabinet-image {
         display: block;
-        max-width: 200px;
+        max-height: 250px;
         margin-bottom: 50px;
         margin-left: auto;
         margin-right: auto;
@@ -166,6 +166,12 @@ h4, .h4 {
     margin-right: auto;
     height: 320px;
     margin-bottom:30px;
+}
+
+@media (max-width: 576px) {
+    .simple-and-useful img {
+        max-height: 250px;
+    }
 }
 
 /* FAQ */
