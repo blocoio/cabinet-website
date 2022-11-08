@@ -9,17 +9,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
 
-  <meta property="og:image" content="https://cabinet.bloco.io/img/icon.png">
+  <meta property="og:image" content="/img/favicon.png">
 
   <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
   <!-- Fonts-->
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/open-sauce-one" type="text/css"/> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,600,800&amp;display=swap">
+  <link rel="stylesheet" media="screen" href="fonts/new-paris-skyline.css" type="text/css"/>
   <!-- Device Mockup-->
   <link rel="stylesheet" href="css/device-mockups.css">
   <!-- theme stylesheet-->
-  <link rel="stylesheet" href="css/style.violet.css" id="theme-stylesheet">
+  <link rel="stylesheet" href="css/style.cabinet.css" id="theme-stylesheet">
   <!-- Custom stylesheet - for your changes-->
   <link rel="stylesheet" href="css/custom.css">
   <!-- Favicon-->
@@ -34,31 +33,130 @@
   <!-- navbar-->
   <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container"><a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="300"></a>
+      <div class="container"><a class="navbar-brand" href="#TODO"><img src="img/logo.png" alt="TODO" height="20"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link link-scroll" href="#what-why">What & Why</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#benefits">Benefits</a></li>
+            <li class="nav-item"><a class="nav-link link-scroll" href="#faqs">FAQ</a></li>
+            <li class="list-inline-item mb-2 ml-4">
+              <a class="btn btn-secondary btn-lg px-4" href="#TODO">Download Cabinet now</a>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </nav>
   </header>
   <!-- Hero Section-->
-  <section class="hero bg-top" id="about">
+  <section class="hero bg-top" id="home">
     <div class="container">
-      <div class="row py-5">
+      <div class="row py-4">
         <div class="col-lg-5 align-self-center">
-          <h1>Something great is under construction!</h1>
+          <h1>It's like a closet full of your new favourite apps</h1>
+          <p>Curated by a team of independent app creators, Cabinet gives you a selection of great Android apps.</p>
           <ul class="list-inline mb-3">
             <li class="list-inline-item mb-2">
-              <a class="btn btn-primary btn-lg px-5" href="https://play.google.com/apps/internaltest/4701457881344997097"> <i class="fab fa-google-play mr-2"></i>Google Play</a>
+              <a class="btn btn-primary btn-lg px-5" href="#TODO"> <i class="fab fa-android mr-2"></i>Try Cabinet. It's free!</a>
             </li>
           </ul>
         </div>
         <div class="col-lg-6 ml-auto">
+          <div class="device-background">
           <div class="device-wrapper mx-auto">
-            <div class="device shadow" data-device="Pixel" data-orientation="portrait" data-color="white">
+            <div class="device shadow" data-device="Pixel" data-orientation="portrait" data-color="black">
               <div class="screen">
                 <img class="img-fluid" src="img/cabinet-screenshot.png" alt="App Screenshot">
               </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-center" id="what-why">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+        <img src="img/your-cabinet-image.png" alt="TODO" class="your-cabinet-image">
+        </div>
+        <div class="col-lg-6">
+          <h1>Your Cabinet of great apps, whenever you need them</h1>
+          <p>Cabinet helps you discover amazing new apps and alternatives to the ones you use every day.</p>
+          <p>No need for endless scrolling through app rankings. Cabinet is free, with no ads, and gives you the comfort of knowing that these apps were tested by real Android-loving humans.</p>
+          <p>Here are the categories of apps you can find on Cabinet:</p>
+          <ul class="list-check px-2 py-2">
+            <li class="normal-arrow">Utility: daily usefulness</li>
+            <li class="curvy-arrow">Better life: focus on your personal growth </li>
+            <li class="strong-arrow">Design: beautifully designed apps</li>
+            <li class="curvy-arrow">Open Source: apps with public source code</li>
+            <li class="normal-arrow">People & Planet: apps for the greater good</li>
+            <li class="curvy-arrow">Games: well-built, ethical, and fun games</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-center" id="benefits">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-3 mb-lg-1">
+          <h1>Simple and useful</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mb-8 mb-lg-0 simple-and-useful">
+            <img src="img/find-your-favourite-new-apps.png" alt="TODO" class="mt-3">
+            <h4 class="w-75 mt-2 mb-4 h5">Find your favourite new apps</h4>
+            <p class="w-75 mt-2 mb-4">Explore all categories you’re interested in or search for something special.</p>
+        </div>
+        <div class="col mb-8 mb-lg-0 simple-and-useful">
+            <img src="img/learn-more-about-them.png" alt="TODO" class="mt-3">
+            <h4 class="w-75 mt-2 mb-4 h5">Learn more about them </h4>
+            <p class="w-75 mt-2 mb-4">Every app comes with our own personal description of why we think that app deserves to be highlighted.</p>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col mb-8 mb-lg-0 simple-and-useful">
+            <img src="img/regularly-updated-with-fresh-new-apps.png" alt="TODO" class="mt-3">
+            <h4 class="w-75 mt-2 mb-4 h5">Regularly updated with fresh new apps</h4>
+            <p class="w-75 mt-2 mb-4">Our team of app creators and enthusiasts at Bloco is always looking for great Android apps to use as inspiration.</p>
+          </div>
+          <div class="col mb-8 mb-lg-0 simple-and-useful">
+            <img src="img/help-cabinet-get-even-better.png" alt="TODO" class="mt-3">
+            <h4 class="w-75 mt-2 mb-4 h5">Help Cabinet get even better with your favourites</h4>
+            <p class="w-75 mt-2 mb-4">Let us know your favourite apps that you think everyone should know about and help us improve our directory.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-center" id="faqs">
+    <div class="container faq-container">
+      <div class="row">
+        <div class="col col-12">
+          <h1>FAQ</h1>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 col-md-6  px-4 my-4">
+                <h4><span class="faq-number">1.</span> Why do I need this app?</h4>
+                <p>If you always struggle to find the right apps for your day-to-day needs or just enjoy discovering that fresh new app that no one knows yet, Cabinet is the app for you. It saves you time from scrolling through endless app rankings as the apps we show were thoroughly tested by real humans and curated from hundreds of apps. Trust us, give it a try.</p>
+            </div>
+            <div class="col-12 col-md-6 px-4 my-4">
+                <h4><span class="faq-number">2.</span> Why is this different than Google Play rankings?</h4>
+                <p>Google Play rankings are based on the number of downloads and ratings, and can be influenced by advertising and other aspects unrelated to the quality of the app. In Cabinet, apps are tested and hand-picked by humans, with no commercial intent or any hidden agenda.</p>
+            </div>
+            <div class="col-12 col-md-6 px-4 my-4">
+                <h4><span class="faq-number">3.</span> How often do you update the lists of apps?</h4>
+                <p>Good question! The periodicity might change in the future, but for now, we're aiming to add a batch of new apps every month.</p>
+            </div>
+            <div class="col-12 col-md-6 px-4 my-4">
+                <h4><span class="faq-number">4.</span> How can I suggest apps for Cabinet?</h4>
+            <p> If you think you’ve found an app that will fit nicely on Cabinet, <a href="mailto:hello@bloco.io?subject=A new app for Cabinet!">send us an email.</a></p>
             </div>
           </div>
         </div>
@@ -71,11 +169,11 @@
   <footer class="position-relative mt-5" id="contacts">
     <div class="container section-padding-y">
       <div class="row">
-        <div class="col-12 col-md-3 mb-4 mb-lg-0">
-          <p class="text-muted">Cabinet is an app made by <a href="https://www.bloco.io">Bloco</a>, an Android product studio focused on building quality mobile apps.</p>
+        <div class="col-9 col-lg-4 mb-4 mb-lg-0">
+          <p class="text-muted">Bloco's an Android design and development studio who is passionate about developing quality digital products. Get to know us and explore our other apps and android projects.</p>
         </div>
-        <div class="col-12 col-md offset-md-1 mb-4 mb-lg-0">
-          <h3 class="h5 mb-2">About</h3>
+        <div class="col-lg offset-md-2 mb-4 mb-lg-0">
+          <h3 class="h5 mb-2">Discover</h3>
           <div class="d-flex">
             <ul class="list-unstyled d-inline-block mr-4 mb-0">
               <li class="mb-1"><a class="footer-link" href="https://www.bloco.io">About us</a></li>
@@ -84,24 +182,22 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md mb-4 mb-lg-0">
+        <div class="col-lg mb-4 mb-lg-0">
           <h3 class="h5 mb-2">Our Products</h3>
           <div class="d-flex">
             <ul class="list-unstyled d-inline-block mr-4 mb-0">
               <li class="mb-1"><a class="footer-link" href="https://play.google.com/store/apps/details?id=io.bloco.largetext">Large Text</a></li>
-              <li class="mb-1"><a class="footer-link" href="https://play.google.com/store/apps/details?id=com.cadernoapp">Caderno</a></li>
-              <li class="mb-1"><a class="footer-link" href="https://play.google.com/store/apps/details?id=io.bloco.cardcase">Card case</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md mb-4 mb-lg-0">
-          <h3 class="h5 mb-2">Follow us</h3>
+        <div class="col-lg mb-4 mb-lg-0">
+          <h3 class="h5 mb-2">Social</h3>
           <div class="d-flex">
             <ul class="list-unstyled mr-4 mb-0">
-              <li class="mb-1"><a class="footer-link" href="https://twitter.com/blocoio"><i class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter</a></li>
-              <li class="mb-1"><a class="footer-link" href="https://www.facebook.com/bloco.io"><i class="fab fa-facebook"></i>&nbsp;&nbsp;&nbsp;Facebook</a></li>
-              <li class="mb-1"><a class="footer-link" href="https://www.linkedin.com/company/bloco/"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;Linkedin</a></li>
-              <li class="mb-1"><a class="footer-link" href="https://www.instagram.com/bloco.io/"><i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;Instagram</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://twitter.com/blocoio">Twitter</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://www.facebook.com/bloco.io">Facebook</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://www.linkedin.com/company/bloco/">Linkedin</a></li>
+              <li class="mb-1"><a class="footer-link" href="https://www.instagram.com/bloco.io/">Instagram</a></li>
             </ul>
           </div>
         </div>
@@ -110,7 +206,7 @@
     <div class="copyrights">
       <div class="container text-center py-4">
         <p class="mb-0 text-muted text-sm">
-          Bloco – <a href="privacy">Privacy Policy</a> – Template inspired by <a
+        Bloco – <a href="https://cabinet.bloco.io/privacy">Privacy Policy</a> – Template inspired by <a
             href="https://bootstraptemple.com" class="text-reset">Bootstrap Temple</a>.
           </p>
       </div>
