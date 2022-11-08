@@ -20,6 +20,12 @@ body {
     }
 }
 
+@media (max-width: 576px) {
+    section {
+        padding: 0px;
+    }
+}
+
 .bg-center {
   margin-bottom: 0;
 }
@@ -165,12 +171,17 @@ h4, .h4 {
     margin-left: auto;
     margin-right: auto;
     height: 320px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 576px) {
     .simple-and-useful img {
         max-height: 250px;
+        margin-bottom: 0px;
+    }
+
+    .mt-3 {
+        margin-top: 0px!important;
     }
 }
 
